@@ -2,9 +2,14 @@
 
 namespace FactionsPZ;
 
-use pocketmine\plugin\PluginBase;
+/* CODED BY @ZorexDesigns and @PizzaHaet */
 
- class FactionMain extends PluginBase {
+use pocketmine\plugin\PluginBase;
+use pocketmine\utils\TextFormat;
+use pocketmine\event\Listener;
+
+ class FactionMain extends PluginBase implements Listener {
  
  
  }
+?>
