@@ -2,16 +2,28 @@
 
 namespace Factions\FactionMain;
 
-/* CODED BY @ZorexDesigns and @PizzaHaet */
+/* DEVELOPED BY @ZorexDesigns, @Pizzahaet, & @Derpific
+*[Insert Cool Stuff Here]
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*/
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
-//Better to make an EventListener.php file so we don't clutter FactionMain.php or so I was told by Thunder
-//use pocketmine\event\Listener;
 
  class FactionMain extends PluginBase {
- 
+  public function onEnable(){
+   $this->getLogger->info("§2§lFactions§4PZ §3ENABLED!");
+   $this->getServer->getPluginManager->registerEvents($this, $this);
+   //Todo Decide on config setup and stuff
+   }
  
  }
-//?>
-//Is that even needed? I mean just look at many other plugins you rarely see it... I believe it's used in html with the script tag
