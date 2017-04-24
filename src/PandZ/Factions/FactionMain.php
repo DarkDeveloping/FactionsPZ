@@ -1,6 +1,6 @@
 <?php
 
-namespace FactionsPZ;
+namespace PandZ/Factions/FactionMain;
 
 /* CODED BY @ZorexDesigns and @PizzaHaet */
 
