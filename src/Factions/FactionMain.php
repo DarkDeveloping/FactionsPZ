@@ -25,5 +25,9 @@ use pocketmine\utils\TextFormat;
    $this->getServer->getPluginManager->registerEvents($this, $this);
    //Todo Decide on config setup and stuff
    }
+  
+  public function onDisable(){
+   $this->getLogger->info("§2§lFactions§4PZ §3Disabled.")
+   }
  
  }
