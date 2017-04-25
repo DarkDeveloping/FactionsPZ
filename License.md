@@ -1,0 +1,1 @@
+This is a License stating that you may publically use this plugin free of charge, under one condition you not take the code for yourself, claiming it, or anything else that takes the credit from the original developers without permission, if you fail to comply with these conditions, action will be taken! -Pizzahaet, ZorexDesigns, Derpific.
